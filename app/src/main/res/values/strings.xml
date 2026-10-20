@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SuLiFa</string>
+    <string name="main_exit">Выход</string>
+    <string name="main_bot_mode">Бот VS Игрок</string>
+    <string name="main_players_mode">Игрок VS Игрок</string>
+    <string name="main_player1_hint">Введите никнейм игрока 1</string>
+    <string name="main_player2_hint">Введите никнейм игрока 2</string>
+    <string name="main_start">Начать игру</string>
+    <string name="main_name_required">Введите никнейм</string>
+    <string name="choice_back">Назад</string>
+    <string name="choice_turn_placeholder">Ход игрока</string>
+    <string name="choice_rock">Камень</string>
+    <string name="choice_scissors">Ножницы</string>
+    <string name="choice_paper">Бумага</string>
+    <string name="choice_next">Далее</string>
+    <string name="choice_show_result">Показать результат</string>
+    <string name="choice_turn">Ход: %1$s</string>
+    <string name="choice_bot_name">Бот</string>
+    <string name="choice_player_default">Игрок</string>
+    <string name="choice_ready">Оба хода сделаны!</string>
+    <string name="choice_result_pending">Ходы сохранены. Экран результата подключим следующим шагом.</string>
+    <string name="result_menu">В главное меню</string>
+    <string name="result_new_round">Новый раунд</string>
+    <string name="result_heading">Результат раунда</string>
+    <string name="result_player_choice">%1$s — выбрал: %2$s</string>
+    <string name="result_winner">Победитель — %1$s!</string>
+    <string name="result_draw">Ничья!</string>
+</resources>

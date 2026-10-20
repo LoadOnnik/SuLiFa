@@ -1,0 +1,107 @@
+--------- beginning of main
+10-20 23:53:17.364  6877  6877 D MainActivity: onCreate: главное меню создано
+10-20 23:53:17.366  6877  6877 D MainActivity: onStart
+10-20 23:53:17.368  6877  6877 D MainActivity: onResume
+10-20 23:53:17.455  6877  6877 D MainActivity: onPause
+10-20 23:53:17.464  6877  6877 D MainActivity: onStop
+10-20 23:53:24.868  6877  6877 D MainActivity: onStart
+10-20 23:53:24.869  6877  6877 D MainActivity: onResume
+10-20 23:53:35.048  6877  6877 I MainActivity: Выбран режим: игрок против бота
+10-20 23:53:42.058  6877  6877 I MainActivity: Нажата кнопка начала игры
+10-20 23:53:42.061  6877  6877 I MainActivity: Переход в ChoiceActivity: режим=bot
+10-20 23:53:42.080  6877  6877 D MainActivity: onPause
+10-20 23:53:42.116  6877  6877 D ChoiceActivity: onCreate
+10-20 23:53:42.117  6877  6877 D ChoiceActivity: onStart
+10-20 23:53:42.118  6877  6877 D ChoiceActivity: onResume
+10-20 23:53:42.698  6877  6877 D MainActivity: onStop
+10-20 23:53:43.224  6877  6877 I ChoiceActivity: Игрок 1 выбрал вариант
+10-20 23:53:43.819  6877  6877 I ChoiceActivity: Бот сделал ход
+10-20 23:53:44.431  6877  6877 I ChoiceActivity: Открытие результата
+10-20 23:53:44.445  6877  6877 D ChoiceActivity: onPause
+10-20 23:53:44.474  6877  6877 D ResultActivity: onCreate
+10-20 23:53:44.474  6877  6877 I ResultActivity: Результат раунда: Победитель — Раб!
+10-20 23:53:44.475  6877  6877 D ResultActivity: onStart
+10-20 23:53:44.476  6877  6877 D ResultActivity: onResume
+10-20 23:53:45.032  6877  6877 D ChoiceActivity: onStop
+10-20 23:53:45.033  6877  6877 D ChoiceActivity: onDestroy
+10-20 23:53:46.525  6877  6877 I ResultActivity: Начат новый раунд
+10-20 23:53:46.538  6877  6877 D ResultActivity: onPause
+10-20 23:53:46.572  6877  6877 D ChoiceActivity: onCreate
+10-20 23:53:46.573  6877  6877 D ChoiceActivity: onStart
+10-20 23:53:46.574  6877  6877 D ChoiceActivity: onResume
+10-20 23:53:47.122  6877  6877 D ResultActivity: onStop
+10-20 23:53:47.122  6877  6877 D ResultActivity: onDestroy
+10-20 23:53:48.074  6877  6877 I ChoiceActivity: Игрок 1 выбрал вариант
+10-20 23:53:48.732  6877  6877 I ChoiceActivity: Бот сделал ход
+10-20 23:53:49.332  6877  6877 I ChoiceActivity: Открытие результата
+10-20 23:53:49.344  6877  6877 D ChoiceActivity: onPause
+10-20 23:53:49.368  6877  6877 D ResultActivity: onCreate
+10-20 23:53:49.368  6877  6877 I ResultActivity: Результат раунда: Ничья!
+10-20 23:53:49.369  6877  6877 D ResultActivity: onStart
+10-20 23:53:49.370  6877  6877 D ResultActivity: onResume
+10-20 23:53:49.927  6877  6877 D ChoiceActivity: onStop
+10-20 23:53:49.928  6877  6877 D ChoiceActivity: onDestroy
+10-20 23:53:50.808  6877  6877 I ResultActivity: Возврат в главное меню
+10-20 23:53:50.822  6877  6877 D ResultActivity: onPause
+10-20 23:53:50.834  6877  6877 D MainActivity: onStart
+10-20 23:53:50.834  6877  6877 D MainActivity: onResume
+10-20 23:53:51.381  6877  6877 D ResultActivity: onStop
+10-20 23:53:51.382  6877  6877 D ResultActivity: onDestroy
+10-20 23:53:51.646  6877  6877 I MainActivity: Выбран режим: два игрока
+10-20 23:53:54.681  6877  6877 I MainActivity: Нажата кнопка начала игры
+10-20 23:53:54.681  6877  6877 I MainActivity: Переход в ChoiceActivity: режим=players
+10-20 23:53:54.700  6877  6877 D MainActivity: onPause
+10-20 23:53:54.734  6877  6877 D ChoiceActivity: onCreate
+10-20 23:53:54.735  6877  6877 D ChoiceActivity: onStart
+10-20 23:53:54.736  6877  6877 D ChoiceActivity: onResume
+10-20 23:53:55.318  6877  6877 D MainActivity: onStop
+10-20 23:53:55.662  6877  6877 I ChoiceActivity: Игрок 1 выбрал вариант
+10-20 23:53:56.172  6877  6877 I ChoiceActivity: Ход передан второму игроку
+10-20 23:53:56.812  6877  6877 I ChoiceActivity: Игрок 2 выбрал вариант
+10-20 23:53:57.336  6877  6877 I ChoiceActivity: Оба игрока завершили ход
+10-20 23:53:57.887  6877  6877 I ChoiceActivity: Открытие результата
+10-20 23:53:57.902  6877  6877 D ChoiceActivity: onPause
+10-20 23:53:57.928  6877  6877 D ResultActivity: onCreate
+10-20 23:53:57.928  6877  6877 I ResultActivity: Результат раунда: Победитель — Раб!
+10-20 23:53:57.929  6877  6877 D ResultActivity: onStart
+10-20 23:53:57.930  6877  6877 D ResultActivity: onResume
+10-20 23:53:58.490  6877  6877 D ChoiceActivity: onStop
+10-20 23:53:58.491  6877  6877 D ChoiceActivity: onDestroy
+10-20 23:53:58.984  6877  6877 I ResultActivity: Начат новый раунд
+10-20 23:53:58.996  6877  6877 D ResultActivity: onPause
+10-20 23:53:59.029  6877  6877 D ChoiceActivity: onCreate
+10-20 23:53:59.030  6877  6877 D ChoiceActivity: onStart
+10-20 23:53:59.031  6877  6877 D ChoiceActivity: onResume
+10-20 23:53:59.591  6877  6877 D ResultActivity: onStop
+10-20 23:53:59.592  6877  6877 D ResultActivity: onDestroy
+10-20 23:53:59.768  6877  6877 I ChoiceActivity: Игрок 1 выбрал вариант
+10-20 23:54:00.206  6877  6877 I ChoiceActivity: Ход передан второму игроку
+10-20 23:54:00.666  6877  6877 I ChoiceActivity: Игрок 2 выбрал вариант
+10-20 23:54:01.127  6877  6877 I ChoiceActivity: Оба игрока завершили ход
+10-20 23:54:01.637  6877  6877 I ChoiceActivity: Открытие результата
+10-20 23:54:01.647  6877  6877 D ChoiceActivity: onPause
+10-20 23:54:01.672  6877  6877 D ResultActivity: onCreate
+10-20 23:54:01.672  6877  6877 I ResultActivity: Результат раунда: Ничья!
+10-20 23:54:01.673  6877  6877 D ResultActivity: onStart
+10-20 23:54:01.673  6877  6877 D ResultActivity: onResume
+10-20 23:54:02.229  6877  6877 D ChoiceActivity: onStop
+10-20 23:54:02.229  6877  6877 D ChoiceActivity: onDestroy
+10-20 23:54:03.151  6877  6877 I ResultActivity: Возврат в главное меню
+10-20 23:54:03.164  6877  6877 D ResultActivity: onPause
+10-20 23:54:03.179  6877  6877 D MainActivity: onStart
+10-20 23:54:03.180  6877  6877 D MainActivity: onResume
+10-20 23:54:03.724  6877  6877 D ResultActivity: onStop
+10-20 23:54:03.726  6877  6877 D ResultActivity: onDestroy
+10-20 23:54:03.865  6877  6877 D MainActivity: onPause
+10-20 23:54:04.716  6877  6877 D MainActivity: onStop
+10-20 23:54:04.717  6877  6877 D MainActivity: onDestroy
+10-20 23:54:41.941  6877  6877 D MainActivity: onCreate: главное меню создано
+10-20 23:54:41.942  6877  6877 D MainActivity: onStart
+10-20 23:54:41.942  6877  6877 D MainActivity: onResume
+10-20 23:54:46.939  6877  6877 I MainActivity: Выбран режим: два игрока
+10-20 23:54:47.172  6877  6877 I MainActivity: Выбран режим: два игрока
+10-20 23:54:48.887  6877  6877 I MainActivity: Нажата кнопка начала игры
+10-20 23:54:48.887  6877  6877 W MainActivity: Начало игры отменено: пустой никнейм игрока 1
+10-20 23:54:57.295  6877  6877 D MainActivity: onPause
+10-20 23:54:58.271  6877  6877 D MainActivity: onStop
+10-20 23:54:58.273  6877  6877 D MainActivity: onDestroy

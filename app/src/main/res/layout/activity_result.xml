@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/screen_padding"
+    tools:context=".ResultActivity">
+
+    <Button
+        android:id="@+id/btnMainMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/result_menu"
+        android:textAllCaps="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnMainMenu"
+        android:layout_above="@id/btnNewRound"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/result_heading"
+            android:textSize="@dimen/result_heading_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvPlayer1Choice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/result_gap"
+            android:gravity="center"
+            android:textSize="@dimen/result_choice_size"
+            tools:text="Альфред — выбрал: Камень" />
+
+        <TextView
+            android:id="@+id/tvPlayer2Choice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/choice_button_gap"
+            android:gravity="center"
+            android:textSize="@dimen/result_choice_size"
+            tools:text="Бот — выбрал: Ножницы" />
+
+        <TextView
+            android:id="@+id/tvWinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/result_gap"
+            android:gravity="center"
+            android:textSize="@dimen/result_winner_size"
+            android:textStyle="bold"
+            tools:text="Победитель — Альфред!" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnNewRound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/result_new_round"
+        android:textAllCaps="false"
+        android:textSize="@dimen/choice_button_text_size" />
+
+</RelativeLayout>
