@@ -40,4 +40,4 @@
 
 ## APK
 
-Ссылка на APK будет добавлена после публикации.
+[Скачать SuLiFa v1.0 для Android](https://github.com/LoadOnnik/SuLiFa/releases/download/v1.0/SuLiFa.apk)
